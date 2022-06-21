@@ -1,6 +1,7 @@
 import React from 'react';
 import hero from './assets/mobile/image-hero.jpg';
 import './App.css';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             us and find out.
         </p>
         <div className="btn-container">
-          <a href="#" className="btn">our location</a>
+          <Link to="#" className="btn">our location</Link>
         </div>
       </main>
       
