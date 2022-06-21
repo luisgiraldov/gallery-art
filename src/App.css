@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+@import-normalize; /* bring in normalize.css styles */
+
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero-image {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-title {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 60px;
+  line-height: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 32px 0;
+  color: #151515;
+  text-shadow: 0px 4px 4px #000000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-content {
+  padding: 0 16px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
 }
