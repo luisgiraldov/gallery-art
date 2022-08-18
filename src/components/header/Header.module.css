@@ -1,0 +1,21 @@
+.hero-image {
+	width: 100%;
+}
+
+.header__content {
+	padding: 3.2rem 1.6rem;
+}
+
+.header__content--title {
+	font-family: var(--big-shoulders-display-font);
+	font-size: 6rem;
+	line-height: 5.5rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: var(--color-primary); 
+	text-shadow: var(--text-shadow-1);
+}
+
+.header__content--text {
+	margin: 3.2rem 0;
+}
