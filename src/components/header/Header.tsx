@@ -16,7 +16,7 @@ const Header = (): ReactElement => {
 			/>
 			<div className={Styles["header__content"]}>
 				<h1 className={Styles["header__content--title"]}>
-					<div>Modern</div> Art Gallery
+					<span>Modern</span> Art Gallery
 				</h1>
 				<p className={Styles["header__content--text"]}>
 					The arts in the collection of the Modern Art Gallery all

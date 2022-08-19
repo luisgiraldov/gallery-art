@@ -1,0 +1,47 @@
+.grid-container {
+    padding: 12rem 1.6rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-image {
+    width: 100%;
+}
+
+.grid__title {
+    font-family: var(--big-shoulders-display-font);
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 4.5rem;
+    text-transform: uppercase;
+}
+
+.grid__title > span {
+    display: block;
+}
+
+.grid__title--light-section {
+    margin: 2.5rem 0;
+}
+
+.grid__title--dark-section {
+    margin-bottom: 2.4rem;
+}
+
+.grid__text--light-section {
+    margin-bottom: 3.2rem;
+}
+
+.grid__text--dark-section {
+
+}
+
+.grid-image + .grid-image {
+    margin: 1.6rem 0;
+}
+
+.grid__dark-section {
+    padding: 4.8rem 2.4rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}

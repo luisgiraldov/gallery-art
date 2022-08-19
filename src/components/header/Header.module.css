@@ -16,6 +16,10 @@
 	text-shadow: var(--text-shadow-1);
 }
 
+.header__content--title > span {
+	display: block;
+}
+
 .header__content--text {
 	margin: 3.2rem 0;
 }
