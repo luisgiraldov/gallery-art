@@ -1,0 +1,9 @@
+.leaflet-container {
+	height: 55rem;
+	width: 100%;
+}
+
+.popup__text {
+	font-size: 2rem;
+	color: var(--color-primary);
+}
