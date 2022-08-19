@@ -23,7 +23,7 @@ const Header = (): ReactElement => {
 					started from a spark of inspiration. Will these pieces
 					inspire you? Visit us and find out.
 				</p>
-				<Button text="Our Location" address="#" goBack={false} />
+				<Button text="Our Location" address="/location" goBack={false} />
 			</div>
 		</header>
 	);

@@ -58,3 +58,37 @@ body {
 		line-height: 3.2rem;
 	}
 }
+
+/* ================================= 
+    Animations
+==================================== */
+
+.fadeIn {
+	animation: 0.5s fadeIn forwards;
+}
+
+.fadeOut {
+	animation: 0.5s fadeOut forwards;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	to {
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+}
