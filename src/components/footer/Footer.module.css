@@ -1,0 +1,31 @@
+.footer {
+    padding: 4.8rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.footer__title {
+    font-family: var(--big-shoulders-display-font);
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.7rem;
+}
+
+.footer__title > span {
+    display: block;
+}
+
+.footer__text {
+    margin: 3.8rem 0;
+    font-size: var(--default-font-size);
+    line-height: 2.6rem;
+}
+
+.icon,
+.icon:link,
+.icon:visited {
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 2rem;
+    color: inherit;
+}

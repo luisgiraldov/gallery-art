@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/header/Header';
 import GalleryGrid from './components/galleryGrid/GalleryGrid';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Header />
         <GalleryGrid />
       </main>
+      <Footer />
     </div>
   );
 }
