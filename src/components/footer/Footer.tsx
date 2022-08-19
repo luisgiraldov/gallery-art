@@ -1,11 +1,11 @@
-import { ReactElement } from "react";
+import { FC, ReactElement } from "react";
 import Styles from "./Footer.module.css";
 import { FaFacebookSquare, FaInstagram, FaTwitter } from "react-icons/fa"
 import { Link } from "react-router-dom";
 
-const Footer = (): ReactElement => {
+const Footer: FC<{color: string}> = ({ color }): ReactElement => {
 	return (
-		<footer className={Styles.footer}>
+		<footer className={`${Styles.footer} ${Styles[color]}`}>
 			<h4 className={Styles["footer__title"]}>
 				<span>Modern</span> Art Gallery
 			</h4>

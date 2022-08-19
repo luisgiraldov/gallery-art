@@ -11,7 +11,7 @@ const Home = (): ReactElement => {
 				<Header />
 				<GalleryGrid />
 			</main>
-			<Footer />
+			<Footer color="primary"/>
 		</>
 	);
 };

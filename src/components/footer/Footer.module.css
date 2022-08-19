@@ -1,7 +1,5 @@
 .footer {
     padding: 4.8rem;
-    background-color: var(--color-primary);
-    color: var(--color-white);
 }
 
 .footer__title {
@@ -28,4 +26,14 @@
     text-decoration: none;
     padding-right: 2rem;
     color: inherit;
+}
+
+.primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
 }

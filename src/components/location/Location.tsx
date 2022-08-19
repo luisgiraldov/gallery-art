@@ -2,6 +2,7 @@ import { ReactElement } from "react";
 import Styles from "./Location.module.css";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import Button from "../smallComponents/button/Button";
+import Footer from "../footer/Footer";
 
 const Location = (): ReactElement => {
 	//to be able to use react-leaflet make sure to install the types, if using with TS
@@ -36,9 +37,13 @@ const Location = (): ReactElement => {
 				<h3 className={Styles["location__address--title"]}>
 					Our location
 				</h3>
-				<h4 className={Styles["location__address--street"]}>99 King Street</h4>
+				<h4 className={Styles["location__address--street"]}>
+					99 King Street
+				</h4>
 				<p className={Styles["location__address--city"]}>
-					<span>Newport</span><span>RI 02840</span><span>United States of America</span>
+					<span>Newport</span>
+					<span>RI 02840</span>
+					<span>United States of America</span>
 				</p>
 				<p className={Styles["location__address--text"]}>
 					Our newly opened gallery is located near the Edward King
@@ -46,6 +51,7 @@ const Location = (): ReactElement => {
 					all visitors and open seven days a week from 8am to 9pm.
 				</p>
 			</div>
+			<Footer color={"secondary"} />
 		</section>
 	);
 };
