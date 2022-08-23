@@ -34,22 +34,27 @@ const Location = (): ReactElement => {
 			</MapContainer>
 
 			<div className={Styles["location__address"]}>
-				<h3 className={Styles["location__address--title"]}>
-					Our location
-				</h3>
-				<h4 className={Styles["location__address--street"]}>
-					99 King Street
-				</h4>
-				<p className={Styles["location__address--city"]}>
-					<span>Newport</span>
-					<span>RI 02840</span>
-					<span>United States of America</span>
-				</p>
-				<p className={Styles["location__address--text"]}>
-					Our newly opened gallery is located near the Edward King
-					House on 99 King Street, the Modern Art Gallery is free to
-					all visitors and open seven days a week from 8am to 9pm.
-				</p>
+				<div className={Styles["location__address--left"]}>
+					<h3 className={Styles["location__address--title"]}>
+						Our location
+					</h3>
+				</div>
+				<div className={Styles["location__address--right"]}>
+					<h4 className={Styles["location__address--street"]}>
+						99 King Street
+					</h4>
+					<p className={Styles["location__address--city"]}>
+						<span>Newport</span>
+						<span>RI 02840</span>
+						<span>United States of America</span>
+					</p>
+					<p className={Styles["location__address--text"]}>
+						Our newly opened gallery is located near the Edward King
+						House on 99 King Street, the Modern Art Gallery is free
+						to all visitors and open seven days a week from 8am to
+						9pm.
+					</p>
+				</div>
 			</div>
 			<Footer color={"secondary"} />
 		</section>

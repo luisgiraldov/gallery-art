@@ -12,7 +12,7 @@
 	line-height: 5.5rem;
 	font-weight: 900;
 	text-transform: uppercase;
-	color: var(--color-primary); 
+	color: var(--color-primary);
 	text-shadow: var(--text-shadow-1);
 }
 
@@ -22,4 +22,16 @@
 
 .header__content--text {
 	margin: 3.2rem 0;
+}
+
+/* tablets and up */
+@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+	.header {
+		display: flex;
+		align-items: center;
+	}
+
+	.header__content {
+		margin-left: -6rem;
+	}
 }

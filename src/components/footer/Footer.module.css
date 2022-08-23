@@ -37,3 +37,17 @@
     background-color: var(--color-secondary);
     color: var(--color-primary);
 }
+
+/* tablets and up */
+@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+    .footer {
+        display: flex;
+    }
+
+    .footer__text {
+        width: 28.1rem;
+        margin: 0;
+        margin-left: 6.5rem;
+        margin-right: 13.3rem;
+    }
+}

@@ -51,3 +51,19 @@
 .location__address--city > span {
 	display: block;
 }
+
+/* tablets and up */
+@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+	.location__button-container {
+		margin-left: 5.9rem;
+	}
+
+	.location__address {
+		display: flex;
+		padding: 8.8rem 4rem 8rem;
+	}
+
+	.location__address--title {
+		margin-right: 6.8rem;
+	}
+}
