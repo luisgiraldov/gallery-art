@@ -44,10 +44,36 @@
         display: flex;
     }
 
+    .footer__title {
+        line-height: 2.2rem;
+    }
+
     .footer__text {
         width: 28.1rem;
         margin: 0;
         margin-left: 6.5rem;
         margin-right: 13.3rem;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .footer {
+        padding: 16.5rem 8rem;
+    }
+
+    .footer__title {
+        font-size: 150%;
+        line-height: 3rem;
+    }
+
+    .footer__text {
+        width: 43rem;
+        margin-left: 14.1rem;
+    }
+
+    .footer__social {
+        margin-left: auto;
+        margin-right: 16.5rem;
     }
 }

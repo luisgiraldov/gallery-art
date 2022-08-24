@@ -55,7 +55,7 @@
 /* tablets and up */
 @media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
 	.location__button-container {
-		margin-left: 5.9rem;
+		left: 5.9rem;
 	}
 
 	.location__address {
@@ -65,5 +65,29 @@
 
 	.location__address--title {
 		margin-right: 6.8rem;
+	}
+}
+
+/* Desktop */
+@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+	.location__address {
+		justify-items: center;
+		padding: 10.4rem 16.5rem 12.8rem;
+	}
+
+	.location__address--left {
+		width: 50%;
+	}
+
+	.location__address--title > span {
+		display: block;
+	}
+
+	.location__address--right {
+		width: 50%;
+	}
+
+	.location__button-container {
+		left: 15.6rem;
 	}
 }

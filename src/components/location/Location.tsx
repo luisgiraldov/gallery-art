@@ -36,7 +36,7 @@ const Location = (): ReactElement => {
 			<div className={Styles["location__address"]}>
 				<div className={Styles["location__address--left"]}>
 					<h3 className={Styles["location__address--title"]}>
-						Our location
+						<span>Our</span> location
 					</h3>
 				</div>
 				<div className={Styles["location__address--right"]}>

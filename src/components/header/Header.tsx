@@ -4,24 +4,32 @@ import heroSmall from "../../assets/mobile/image-hero.jpg";
 import heroSmall2x from "../../assets/mobile/image-hero@2x.jpg";
 import heroMedium from "../../assets/tablet/image-hero.jpg";
 import heroMedium2x from "../../assets/tablet/image-hero@2x.jpg";
+import heroLarge from "../../assets/desktop/image-hero.jpg";
+import heroLarge2x from "../../assets/desktop/image-hero.jpg";
 import Button from "../smallComponents/button/Button";
 
 const Header = (): ReactElement => {
 	return (
 		<header className={Styles.header}>
-			<picture className={Styles["hero-image"]}>
+			<div className={Styles["background-black"]}>&nbsp;</div>
+			<picture className={Styles["hero-image--container"]}>
 				<source
 					srcSet={`${heroSmall} 1x, ${heroSmall2x} 2x`}
 					media="(max-width: 767px)"
 				></source>
 				<source
 					srcSet={`${heroMedium} 1x, ${heroMedium2x} 2x`}
-					media="(max-width: 1024px)"
+					media="(max-width: 1023px)"
+				></source>
+				<source
+					srcSet={`${heroLarge} 1x, ${heroLarge2x} 2x`}
+					media="(min-width: 1024px)"
 				></source>
 				<img
-					srcSet={`${heroSmall} 1x, ${heroSmall2x} 2x`}
+					srcSet={`${heroLarge} 1x, ${heroLarge2x} 2x`}
 					alt="people looking at painting"
-					src={heroSmall2x}
+					src={heroLarge2x}
+					className={Styles["hero-image"]}
 				/>
 			</picture>
 			<div className={Styles["header__content"]}>
